@@ -875,9 +875,8 @@ body {
     .sidebar img {
         width: 200%;
         
-
+    }
  
-
     .sidebar p {
         text-align: center;
     }
@@ -979,4 +978,5 @@ body {
         width: 100%;
         margin-bottom: 30px;
     }
+
 }
