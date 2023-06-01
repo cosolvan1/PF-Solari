@@ -1,0 +1,22 @@
+.action_btn {
+    background-color: #ffffff;
+    color: #680404;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+
+    &:hover {
+        scale: 1.05;
+        color: #000000;
+        background-color: #ff6f6f;
+    }
+    
+    &:active {
+        scale: 0.95;
+    }
+}
