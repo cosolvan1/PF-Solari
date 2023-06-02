@@ -4,8 +4,14 @@
 @import './base/utility';
 
 /* IMPORTACION DE CARPETA COMPONENTES*/
+@import './components/navbar';
+@import './components/footer';
 @import './components/action_btn';
 
 /* IMPORTACION DE CARPETA  LAYOUT*/
 
 @import './layout/index';
+@import './layout/adn';
+@import './layout/blog';
+@import './layout/contacto';
+@import './layout/portafolio';
