@@ -1,0 +1,66 @@
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;  
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.btn-box a:hover {
+    color: #000000;
+}
+
+.btn-box a:nth-child(2) {
+    background: #000000;
+    color: #ffffff;
+}
+
+.btn-box a:nth-child(2):hover {
+    color: #000000;
+}
+
+
+.btn-box a:nth-child(2)::before {
+    color: #000000ee;
+}
+
+
+.btn-box a:nth-child(2) ::before {
+    background-color: #6fff8d;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #6fff8d;
+    z-index: -1;
+    transition: .5s;
+
+}
+
+.btn-box a:hover:before {
+    width: 100%;
+}

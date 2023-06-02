@@ -35,6 +35,45 @@ body {
   scale: 0.95;
 }
 
+.cards {
+  background-color: #6fff8d;
+  text-align: center;
+  margin-top: 20px;
+}
+.cards .card_body {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  background-color: #6fff8d;
+  margin-top: none;
+  position: relative;
+}
+.cards .card_body img {
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  color: #000000;
+}
+.cards .card_body img:hover {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 15px 0px #4a4a4a;
+  color: #000000;
+}
+.cards .card_body h2 {
+  padding: 5%;
+  color: #000000;
+}
+.cards .card_body h2:hover {
+  color: #F4EAD5;
+  background-color: #000000;
+  box-shadow: 5px 5px 15px 0px #4a4a4a;
+}
+.cards .card_body p {
+  padding: 5%;
+  color: #000000;
+}
+
 /* IMPORTACION DE CARPETA  LAYOUT*/
 .home {
   display: flex;
@@ -58,10 +97,44 @@ body {
   text-align: justify;
   margin-right: 150px;
 }
-.home-content .btn-box {
-  display: flex;
-  justify-content: space-between;
-  width: 345px;
+
+.cards {
+  background-color: #6fff8d;
+  text-align: center;
+  margin-top: 20px;
+}
+.cards .card_body {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  background-color: #6fff8d;
+  margin-top: none;
+  position: relative;
+}
+.cards .card_body img {
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  color: #000000;
+}
+.cards .card_body img:hover {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 15px 0px #4a4a4a;
+  color: #000000;
+}
+.cards .card_body h2 {
+  padding: 5%;
+  color: #000000;
+}
+.cards .card_body h2:hover {
+  color: #F4EAD5;
+  background-color: #000000;
+  box-shadow: 5px 5px 15px 0px #4a4a4a;
+}
+.cards .card_body p {
+  padding: 5%;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.CSS.map */
