@@ -19,48 +19,8 @@
 
 /* 2DA PARTE: 3 CAJAS*/
 
-.cards {
-    background-color: #6fff8d;
-    text-align: center;
-    margin-top: 20px;
 
-}
 
-.card_body img {
-    width: 100%;
-    height: 30%px;
-    object-fit: cover;
-    color: #000000;
-}
-
-.card_body img:hover {
-    background-color: #ffffff;
-    box-shadow: 5px 5px 15px 0px #4a4a4a;
-    color: #000000;
-}
-
-.card_body {
-
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
-    background-color: #6fff8d;
-    margin-top: none;
-    position: relative;
-}
-
-.card_body h2,
-.card_body p {
-    padding: 5%;
-    color: #000000
-}
-
-.card_body h2:hover {
-    color: #F4EAD5;
-    background-color: #000000;
-    box-shadow: 5px 5px 15px 0px #4a4a4a;
-}
 
 
 /* 3RA PARTE: EMPIEZA CON UNA IDEA*/
@@ -360,10 +320,6 @@
 
 /* CONTACTO*/
 
-.container {
-    max-width: 1500px;
-    margin: 0 auto;
-}
 
 
 .form-section form {
@@ -594,6 +550,7 @@
 
 /*Footer*/
 
+
 .footer {
     background-color: #6fff8d;
     padding: 100px 0;
@@ -604,7 +561,15 @@
     flex-wrap: wrap;
 }
 
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
 
+}
 .footer-links h4 {
     font-size: 30px;
     color: #000000;
@@ -615,11 +580,7 @@
     display: block;
 }
 
-.footer-links {
-    width: 25%;
-    padding: 0 15px;
 
-}
 
 .footer-links ul li a {
     font-size: 18px;

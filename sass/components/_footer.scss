@@ -1,0 +1,21 @@
+.footer {
+    background-color: #6fff8d;
+    padding: 100px 0;
+
+    .container {
+        max-width: 1500px;
+        margin: 0 auto;
+
+        .columna {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .links {
+            width: 25%;
+            padding: 0 15px;
+        }
+    }
+
+}
