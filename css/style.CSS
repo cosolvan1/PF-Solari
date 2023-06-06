@@ -49,14 +49,14 @@ body {
   color: #ffffff;
   padding-left: 6px;
 }
-.footer .social-links {
+.footer-links .social-links {
   bottom: 40px;
   width: 170px;
   display: flex;
   justify-content: space-between;
   margin: auto;
 }
-.footer .social-links a {
+.footer-links .social-links a {
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -72,7 +72,7 @@ body {
   z-index: 1;
   overflow: hidden;
 }
-.footer .social-links aa::before {
+.footer-links .social-links a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -83,7 +83,10 @@ body {
   z-index: -1;
   transition: 0.5s;
 }
-.footer .social-links aa::before:hover::before {
+.footer-links .social-links a::before:hover::before {
+  width: 100%;
+}
+.footer-links .social-links a:hover::before {
   width: 100%;
 }
 
@@ -180,14 +183,14 @@ body {
   color: #ffffff;
   padding-left: 6px;
 }
-.footer .social-links {
+.footer-links .social-links {
   bottom: 40px;
   width: 170px;
   display: flex;
   justify-content: space-between;
   margin: auto;
 }
-.footer .social-links a {
+.footer-links .social-links a {
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -203,7 +206,7 @@ body {
   z-index: 1;
   overflow: hidden;
 }
-.footer .social-links aa::before {
+.footer-links .social-links a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -214,7 +217,10 @@ body {
   z-index: -1;
   transition: 0.5s;
 }
-.footer .social-links aa::before:hover::before {
+.footer-links .social-links a::before:hover::before {
+  width: 100%;
+}
+.footer-links .social-links a:hover::before {
   width: 100%;
 }
 
@@ -307,18 +313,6 @@ body {
   width: 50%;
   height: 100%;
   margin-top: 80px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
-}
-
-body {
-  height: 100vh;
-  background-color: #ffffff;
 }
 
 /* 1ERA PARTE: CARRUSEL*/
@@ -923,22 +917,6 @@ body {
 }
 
 /*Footer*/
-.social-links a::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background: #ffffff;
-  z-index: -1;
-  transition: 0.5s;
-}
-
-.social-links a:hover::before {
-  width: 100%;
-}
-
 /*El show de las medias*/
 @media (max-width: 991px) {
   .home {

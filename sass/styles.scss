@@ -25,17 +25,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,400;1,100;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
-}
-
-body {
-    height: 100vh;
-    background-color: #ffffff;
-}
 
 
 
@@ -710,22 +699,6 @@ body {
 
 
 
-.social-links a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: #ffffff;
-    z-index: -1;
-    transition: .5s;
-
-}
-
-.social-links a:hover::before {
-    width: 100%;
-}
 
 
 
