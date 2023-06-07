@@ -12,6 +12,9 @@
 @import './components/footer';
 @import './components/carousel';
 @import './components/botonverde';
+@import './components/caja_content';
+@import './components/titulos';
+
 
 /* IMPORTACION DE CARPETA  LAYOUT*/
 
@@ -29,156 +32,9 @@
 
 
 
-/* 1ERA PARTE: CARRUSEL*/
 
 
 
-.card_body h2,
-.card_body p {
-    font-size: 30px;
-}
-
-.card_body h2:hover,
-.card_body p {
-    font-size: 40px;
-}
-
-.home-content h3 {
-    font-size: 20px;
-    margin: 20px 0 40px;
-    text-align: justify;
-    margin-right: 150px;
-}
-
-.home-content .btn-box {
-    display: flex;
-    justify-content: space-between;
-    width: 345px;
-
-
-}
-
-.btn-box a {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 100%;
-    background: #000000;
-    border: 2px solid #000000;
-    border-radius: 8px;
-    font-size: 19px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
-
-}
-
-
-
-.btn-box a:nth-child(2) {
-    background: #000000;
-    color: #ffffff;
-}
-
-.btn-box a:nth-child(2):hover {
-    color: #000000;
-}
-
-
-.btn-box a:nth-child(2)::before {
-    color: #000000ee;
-}
-
-
-.btn-box a:nth-child(2) ::before {
-    background-color: #6fff8d;
-}
-
-.btn-box a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: #6fff8d;
-    z-index: -1;
-    transition: .5s;
-
-}
-
-.btn-box a:hover:before {
-    width: 100%;
-}
-
-
-/* 2DA PARTE: 3 CAJAS*/
-
-.cards {
-    background-color: #6fff8d;
-    text-align: center;
-    margin-top: 20px;
-
-}
-.card_body {
-
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
-    background-color: #6fff8d;
-    margin-top: none;
-    position: relative;
-} 
-.card_body img {
-    width: 100%;
-    height: 30%;
-    object-fit: cover;
-    color: #000000;
-}
-
-.card_body img:hover {
-    background-color: #ffffff;
-    box-shadow: 5px 5px 15px 0px #4a4a4a;
-    color: #000000;
-}
-
-
-.card_body h2,
-.card_body p {
-    padding: 5%;
-    color: #000000
-}
-
-.card_body h2:hover {
-    color: #F4EAD5;
-    background-color: #000000;
-    box-shadow: 5px 5px 15px 0px #4a4a4a;
-}
-
-
-/* 3RA PARTE: EMPIEZA CON UNA IDEA*/
-.cajas {
-    padding: 0px 0;
-    margin-top: 60px;
-    margin-bottom: 70px;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 0px;
-
-
-}
-
-.caja c1 img {
-    align-items: center;
-}
 
 .caja-img {
     width: 100%;
@@ -291,122 +147,16 @@
     width: 100%;
 }
 
-.caja_content {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 
-}
-
-.caja_content h2 {
-    justify-content: center;
-    font-size: 50px;
-}
-
-.caja_content a {
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-    text-decoration: none;
-    color: #ffffffee;
-    border-radius: 7px;
-    align-self: flex-end;
-    width: 150px;
-    text-align: center;
-}
 
 
-/* ADN*/
-
-.cardsADN {
-    background-color: #6fff8d;
-    text-align: center;
-    margin-top: 20px;
-
-}
-
-.card_bodyADN img {
-    width: 100%;
-    height: 30%px;
-    object-fit: cover;
-    color: #000000;
-}
-
-.card_bodyADN img:hover {
-    background-color: #ffffff;
-    box-shadow: 5px 5px 15px 0px #4a4a4a;
-    color: #000000;
-}
-
-.card_bodyADN {
-
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
-    background-color: #6fff8d;
-    margin-top: none;
-    position: relative;
-}
-
-.card_bodyADN h2,
-.card_bodyADN p {
-    padding: 5%;
-    color: #000000
-}
-
-.card_bodyADN h2:hover {
-    color: #F4EAD5;
-    background-color: #000000;
-    box-shadow: 5px 5px 15px 0px #4a4a4a;
-}
 
 
 
 /* PORTAFOLIO*/
 
-.pseudos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
-    max-height: 100%;
-    background-color: #eeee;
-    gap: 40px;
-    padding: 20px;
-}
 
-.pseudo {
-    width: 90%;
-    height: 600px;
-    background-color: #000000;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    color: #ffeeee;
-    transition: .5s;
-    overflow: hidden;
-}
-
-.pseudo:hover {
-    background-color: #ffffff;
-    box-shadow: 5px 5px 15px 0px #4a4a4a;
-    color: #000000;
-}
-
-.pseudo img {
-    width: 40%;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(5px);
-    transition: .3s;
-}
 
 .pseudo:hover img {
     filter: blur(0);
@@ -430,32 +180,7 @@
     box-shadow: 5px 5px 15px 0px #4a4a4a;
 }
 
-.number-page {
-    text-align: center;
-    width: 100%;
-    height: 5%;
-    background-color: #000000;
-}
 
-.number-page ul li {
-    display: inline-block;
-    width: 50px;
-    margin-top: 8px;
-
-}
-
-.number-page ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.number-page ul li a:hover {
-    background-color: #ffeeee;
-    color: #000000;
-}
 
 
 /* CONTACTO*/
@@ -607,96 +332,6 @@
     display: flex;
 
 }
-
-
-
-/*BLOG*/
-.tittle h1 {
-    padding: 20px 0;
-    text-align: center;
-    font-size: 2.9em;
-    text-transform: uppercase;
-}
-
-.container2 {
-    background-color: #ffffff;
-    width: 90%;
-    max-width: 1000px;
-    margin: 40px auto;
-    display: grid;
-    gap: 70px;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.content2 h1 {
-    text-align: center;
-}
-
-.content2 h1 p {
-    justify-content: center;
-}
-
-.related-post {
-    text-align: center;
-
-}
-
-.related-post:hover {
-    color: #F4EAD5;
-    background-color: #000000;
-}
-
-
-
-
-.sidebar img {
-    padding: 20px;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-
-
-.container2>.h1,
-.container2>.content2,
-.container2>.sidebar,
-.container2>div {
-    background: #6fff8d;
-    color: #000000;
-    padding: 30px;
-    border: 1px solid #000000;
-
-}
-
-
-.container2>.content2 {
-    grid-column: span 2;
-}
-
-.container2>.sidebar {
-    grid-column: span 2;
-}
-
-.content2>.article {
-    background-color: #6fff8d;
-    padding: 20px;
-    margin-top: 5px;
-    color: #000000;
-
-}
-
-
-
-
-
-
-
-/*Footer*/
-
-
-
-
 
 
 
