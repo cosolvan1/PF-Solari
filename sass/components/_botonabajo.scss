@@ -1,8 +1,8 @@
-.home-content .btn-box {
-    display: flex;
-    justify-content: space-between;
-    width: 345px;
 
+.btn-abajo{
+    display: flex;
+
+ 
     a {
         position: relative;
         display: inline-flex;
@@ -33,24 +33,23 @@
             & a:nth-child(2)::before {
                 color: #000000ee;
                 background-color: #6fff8d;
-                & a::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 0%;
-                    height: 100%;
-                    background: #6fff8d;
-                    z-index: -1;
-                    transition: .5s;
-    
-                    &:hover:before {
-                        width: 100%;
-                    }
-                }
             }
 
-           
+            & a::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 100%;
+                background: #6fff8d;
+                z-index: -1;
+                transition: .5s;
+
+                &:hover:before {
+                    width: 100%;
+                }
+            }
         }
     }
 }

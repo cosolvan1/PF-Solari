@@ -1,6 +1,149 @@
-.container {
-    max-width: 1500px;
-    margin: 0 auto;
+.contacto {
+    .form-section {
+        form {
+            width: 40%;
+            margin: 40px auto;
+            float: left;
+            text-align: center;
+        }
 
-    
+        p {
+            font-size: 20px;
+            color: #000000;
+            text-align: center;
+            align-items: center;
+        }
+    }
+}
+
+
+
+.form-section form p label {
+    display: flex;
+    width: 100%;
+    text-align: start;
+    transform: translateX(25%);
+    margin: 8px auto;
+
+}
+
+
+.form-section form p button {
+    background-color: #6fff8d;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #000000ee;
+    padding: 10px;
+    border-radius: 7px;
+    align-self: flex-end;
+    width: 150px;
+    text-align: center;
+}
+
+.form-section form p button {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.form-section form p button:hover {
+    color: #000000;
+
+
+}
+
+.form-section form p button:nth-child(2) {
+    background: #000000;
+    color: #ffffff;
+}
+
+.form-section form p button:nth-child(2):hover {
+    color: #000000;
+}
+
+.form-section form p button:nth-child(2)::before {
+    color: #000000ee;
+}
+
+.form-section form p button:nth-child(2) ::before {
+    background-color: #6fff8d;
+}
+
+.form-section form p button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #6fff8d;
+    z-index: -1;
+    transition: .5s;
+}
+
+.form-section form p button:hover:before {
+    width: 100%;
+}
+
+
+
+
+.form-section form p input,
+.form-section form p textarea {
+    display: block;
+    width: 50%;
+    text-align: start;
+    transform: translateX(50%);
+    border: 100;
+}
+
+
+.form-section form h3 {
+    color: #000000;
+    font-size: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 70px;
+}
+
+.form-section img {
+    width: 560px;
+    height: 560px;
+    margin: 40px auto;
+    object-fit: fill;
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+
+/*location*/
+
+.section-location {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.location-map {
+    float: center;
+    display: flex;
+
 }
