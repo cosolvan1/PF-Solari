@@ -1,0 +1,22 @@
+.container2 {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    gap: 70px;
+    grid-template-columns: repeat(2, 1fr);
+    
+    .related-post {
+        text-align: center;
+    
+        &:hover {
+            color: #F4EAD5;
+        background-color: #000000;
+        }
+    
+    }
+    
+}
+
+

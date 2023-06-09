@@ -11,7 +11,9 @@
 @import './components/botonverde';
 @import './components/titulos';
 @import './components/botonabajo';
-@import './components/cajacontent';
+@import './components/relatedpost';
+
+
 
 /* IMPORTACION DE CARPETA  LAYOUT*/
 
@@ -21,10 +23,6 @@
 @import './layout/contacto';
 @import './layout/portafolio';
 @import './layout/media-queries';
-
-
-
-
 
 
 
@@ -102,6 +100,8 @@
 .pseudo__container {
     padding: 50px;
     width: 50%;
+
+    
 }
 
 .pseudo:nth-child(odd) {
