@@ -4,6 +4,28 @@
         flex-direction: column;
     }
 
+    .home-content h1 {
+        text-align: center;
+        margin-right: 0px;
+        margin-top: 40px;
+        font-size: 60px;
+    }
+
+    .home-content h2 {
+        margin-top: 60px;
+        text-align: center;
+        margin-right: auto;
+        font-size: 40px;
+    }
+
+    .cajas .caja h2,
+    .cajas .caja p {
+
+        font-size: 30px;
+        justify-content: center;
+
+    }
+
     .form-section form p input,
     .form-section form p textarea {
         width: 100%;
@@ -18,6 +40,7 @@
         width: 80%;
         display: flex;
         margin: auto;
+        font-size: 40px;
     }
 
     .form-section img {
@@ -29,9 +52,34 @@
     }
 
     .form-section form h3 {
-        font-size: 30px;
+        font-size: 0px;
         margin-right: 0px;
         padding-top: 0px;
+    }
+
+    .form-section form p input,
+    .form-section form p textarea {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .form-section form p label {
+        font-size: 40px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .cajas .caja h2, .cajas .caja p {
+        font-size: 40px;
+        justify-content: center;
+        
+    }
+    .pseudos .pseudo__container h2 {
+        font-size: 80px;
+
+    }
+
+    .pseudos .pseudo__container span {
+        font-size: 30px;
     }
 
     .form-section {
@@ -39,19 +87,23 @@
         flex-direction: column;
     }
 
-  
+
 
     .cardsADN .card_bodyADN img {
-        
+
         display: none;
-        
+
     }
 
-   
+
 
     .cardsADN .card_bodyADN {
 
         width: auto;
+    }
+
+    .card_bodyADN p {
+        font-size: 50px;
     }
 
 
@@ -69,39 +121,35 @@
         text-align: center;
     }
 
+    .footer-links h4 {
+        font-size: 100px;
+    }
+
+    .footer-links li {
+        font-size: 70px;
+    }
+
 
     .caja_content h2 {
         font-size: 30px;
         justify-content: center;
     }
 
-    .home-content h3 {
-        text-align: center;
-        margin-right: 10px;
 
-    }
-    .c4 img {
-        width: 0%;
-        height: 0%;
-    }
+
     .card_body {
         display: contents;
     }
 
-    .home-content h1 {
-        text-align: center;
-        margin-right: 0px;
-        font-size: 60px;
+    .cajas img {
+        width: 100%;
     }
 
     .card_body h2,
     .card_body p {
-        font-size: 0px;
+        font-size: 20px;
     }
 
-    .home-content h3 {
-        display: flex;
-    }
 
     .form-section img {
         object-fit: scale-down;
@@ -123,7 +171,7 @@
     }
 
     .caja h3 {
-        font-size: 25px;
+        font-size: 60px;
 
     }
 
@@ -152,10 +200,10 @@
 
     .card_body h2,
     .card_body p {
-        
+
         color: #000000;
-        font-size: 20px;
-        
+        font-size: 50px;
+
     }
 
     .caja img {
@@ -178,6 +226,8 @@
 
     .footer-links ul li a {
         flex-direction: column;
+        font-size: 50px;
+
     }
 
     .footer-columna {

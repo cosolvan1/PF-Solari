@@ -389,6 +389,7 @@ body {
 .cardsADN .card_bodyADN {
   width: 100%;
   height: 30%;
+  font-size: 50px;
   object-fit: cover;
   color: #000000;
   display: inline-block;
@@ -398,8 +399,16 @@ body {
   margin-top: none;
   position: relative;
 }
-.cardsADN .card_bodyADN img {
-  display: none;
+.cardsADN .card_bodyADN h2 {
+  margin-bottom: 100px;
+}
+.cardsADN .card_bodyADN span {
+  color: #000000;
+}
+.cardsADN .card_bodyADN span:hover {
+  color: #6fff8d;
+  background: black;
+  box-shadow: 15px 15px 15px 0px #000000;
 }
 
 .container2 {
@@ -607,7 +616,7 @@ body {
 .pseudos .pseudo:hover {
   background-color: #ffffff;
   box-shadow: 5px 5px 15px 0px #4a4a4a;
-  color: #d10f0f;
+  color: #000000;
 }
 .pseudos .pseudo:hover img {
   filter: blur(0);
@@ -630,6 +639,23 @@ body {
   .home {
     flex-direction: column;
   }
+  .home-content h1 {
+    text-align: center;
+    margin-right: 0px;
+    margin-top: 40px;
+    font-size: 60px;
+  }
+  .home-content h2 {
+    margin-top: 60px;
+    text-align: center;
+    margin-right: auto;
+    font-size: 40px;
+  }
+  .cajas .caja h2,
+  .cajas .caja p {
+    font-size: 30px;
+    justify-content: center;
+  }
   .form-section form p input,
   .form-section form p textarea {
     width: 100%;
@@ -643,6 +669,7 @@ body {
     width: 80%;
     display: flex;
     margin: auto;
+    font-size: 40px;
   }
   .form-section img {
     display: block;
@@ -652,9 +679,29 @@ body {
     object-fit: fill;
   }
   .form-section form h3 {
-    font-size: 30px;
+    font-size: 0px;
     margin-right: 0px;
     padding-top: 0px;
+  }
+  .form-section form p input,
+  .form-section form p textarea {
+    font-size: 50px;
+    padding: 20px;
+  }
+  .form-section form p label {
+    font-size: 40px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  .cajas .caja h2, .cajas .caja p {
+    font-size: 40px;
+    justify-content: center;
+  }
+  .pseudos .pseudo__container h2 {
+    font-size: 80px;
+  }
+  .pseudos .pseudo__container span {
+    font-size: 30px;
   }
   .form-section {
     display: flex;
@@ -666,6 +713,9 @@ body {
   .cardsADN .card_bodyADN {
     width: auto;
   }
+  .card_bodyADN p {
+    font-size: 50px;
+  }
   .sidebar img {
     width: 100%;
   }
@@ -675,32 +725,25 @@ body {
   .related-post {
     text-align: center;
   }
+  .footer-links h4 {
+    font-size: 100px;
+  }
+  .footer-links li {
+    font-size: 70px;
+  }
   .caja_content h2 {
     font-size: 30px;
     justify-content: center;
   }
-  .home-content h3 {
-    text-align: center;
-    margin-right: 10px;
-  }
-  .c4 img {
-    width: 0%;
-    height: 0%;
-  }
   .card_body {
     display: contents;
   }
-  .home-content h1 {
-    text-align: center;
-    margin-right: 0px;
-    font-size: 60px;
+  .cajas img {
+    width: 100%;
   }
   .card_body h2,
   .card_body p {
-    font-size: 0px;
-  }
-  .home-content h3 {
-    display: flex;
+    font-size: 20px;
   }
   .form-section img {
     object-fit: scale-down;
@@ -716,7 +759,7 @@ body {
     font-size: 20px;
   }
   .caja h3 {
-    font-size: 25px;
+    font-size: 60px;
   }
   .caja img {
     padding-bottom: 20px;
@@ -737,7 +780,7 @@ body {
   .card_body h2,
   .card_body p {
     color: #000000;
-    font-size: 20px;
+    font-size: 50px;
   }
   .caja img {
     object-fit: scale-down;
@@ -754,6 +797,7 @@ body {
   }
   .footer-links ul li a {
     flex-direction: column;
+    font-size: 50px;
   }
   .footer-columna {
     text-align: center;
