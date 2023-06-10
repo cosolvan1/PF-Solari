@@ -39,10 +39,23 @@
         flex-direction: column;
     }
 
-    .card_bodyADN {
-        width: 100%;
-        padding: 0px 0px 0px;
+  
+
+    .cardsADN .card_bodyADN img {
+        
+        display: none;
+        
     }
+
+   
+
+    .cardsADN .card_bodyADN {
+
+        width: auto;
+    }
+
+
+
 
     .sidebar img {
         width: 100%;
@@ -96,7 +109,7 @@
 
     }
 
-    
+
 
     .caja_content a {
         position: static;
@@ -115,13 +128,31 @@
         padding-bottom: 20px;
         margin-bottom: 40px;
     }
-   
+
+    .pseudo p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        display: none;
+    }
+
+    .pseudos .pseudo img {
+        width: 40%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(0px);
+        transition: 0.3s;
+    }
+
+
+
+
 
     .card_body h2,
     .card_body p {
-        padding: 5%;
+        
         color: #000000;
-        font-size: 40px;
+        font-size: 20px;
+        
     }
 
     .caja img {
@@ -135,6 +166,8 @@
         flex-direction: column;
         width: 100%;
     }
+
+
 
     .footer {
         padding: 50px 0;

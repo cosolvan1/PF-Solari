@@ -25,7 +25,7 @@
         &:hover {
             background-color: #ffffff;
             box-shadow: 5px 5px 15px 0px #4a4a4a;
-            color: #000000;
+            color: #d10f0f;
 
             img {
                 filter: blur(0);
@@ -50,13 +50,13 @@
 
 
 
-        .__container {
+        ._container {
             padding: 50px;
             width: 50%;
 
             &:nth-child(odd) {
                 background-color: rgb(255, 255, 255);
-                color: #000000ee;
+                color: #d41f1fee;
                 flex-direction: row-reverse;
 
                 &:hover {
