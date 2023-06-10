@@ -1,9 +1,6 @@
 .container2 {
-    background-color: #ff0707;
-    width: 90%;
-    max-width: 1000px;
-    margin: 40px auto;
-    display: grid;
+   
+  
     grid-template-columns: repeat(2, 1fr);
 
     .sidebar {
@@ -23,49 +20,28 @@
         p {
             margin-bottom: 40px;
             text-align: center;
-
-        }
-
-    }
-
-    .article-body {
-        p {
-            text-align: center;
-            margin-bottom: 50px;
-            
-
         }
     }
-
-
-
-
 }
 
 .container2 > .h1,
 .container2 > .content2,
 .container2 > .sidebar,
 .container2 > div {
-    background: #dd0808;
+    background: #ffffff;
     color: #000000;
     padding: 30px;
-    border: 1px solid #000000;
+    border: 3px solid #000000;
 
 }
 
 
 .container2>.content2 {
     grid-column: span 2;
+    border: 3px solid #000000;
 }
 
 .container2>.sidebar {
     grid-column: span 2;
 }
 
-.content2>.article {
-    background-color: #6fff8d;
-    padding: 20px;
-    margin-top: 5px;
-    color: #000000;
-
-}
