@@ -289,54 +289,6 @@ body {
   text-transform: uppercase;
 }
 
-.btn-abajo {
-  display: flex;
-}
-.btn-abajo a {
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 100%;
-  background: #000000;
-  border: 2px solid #000000;
-  border-radius: 8px;
-  font-size: 19px;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
-  z-index: 1;
-  overflow: hidden;
-  transition: 0.5s;
-}
-.btn-abajo a:nth-child(2) {
-  background: #000000;
-  color: #ffffff;
-}
-.btn-abajo a:nth-child(2):hover {
-  color: #000000;
-}
-.btn-abajo a:nth-child(2) a:nth-child(2)::before {
-  color: rgba(0, 0, 0, 0.9333333333);
-  background-color: #6fff8d;
-}
-.btn-abajo a:nth-child(2) a::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background: #6fff8d;
-  z-index: -1;
-  transition: 0.5s;
-}
-.btn-abajo a:nth-child(2) a::before:hover:before {
-  width: 100%;
-}
-
 .container2 {
   background-color: #ffffff;
   width: 90%;
@@ -461,34 +413,18 @@ body {
   text-align: center;
   align-items: center;
 }
-
-.form-section form p label {
+.contacto .form-section label {
   display: flex;
   width: 100%;
   text-align: start;
   transform: translateX(25%);
   margin: 8px auto;
 }
-
-.form-section form p button {
-  background-color: #6fff8d;
-  margin-left: 300px;
-  margin-top: 50px;
+.contacto .form-section button {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.9333333333);
-  padding: 10px;
-  border-radius: 7px;
-  align-self: flex-end;
-  width: 150px;
-  text-align: center;
-}
-
-.form-section form p button {
+  padding: 10px 10px;
   position: relative;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
   height: 100%;
   background: #000000;
   border: 2px solid #000000;
@@ -496,32 +432,16 @@ body {
   font-size: 19px;
   color: #ffffff;
   text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
   z-index: 1;
   overflow: hidden;
   transition: 0.5s;
 }
-
-.form-section form p button:hover {
+.contacto .form-section button:hover {
   color: #000000;
 }
-
-.form-section form p button:nth-child(2) {
+.contacto .form-section button:nth-child(2) {
   background: #000000;
   color: #ffffff;
-}
-
-.form-section form p button:nth-child(2):hover {
-  color: #000000;
-}
-
-.form-section form p button:nth-child(2)::before {
-  color: rgba(0, 0, 0, 0.9333333333);
-}
-
-.form-section form p button:nth-child(2) ::before {
-  background-color: #6fff8d;
 }
 
 .form-section form p button::before {
@@ -666,10 +586,13 @@ body {
     transform: none;
   }
   .form-section form p button {
-    width: 80%;
+    width: 70%;
     display: flex;
     margin: auto;
-    font-size: 40px;
+    align-items: center;
+  }
+  .contacto .form-section button {
+    font-size: 50px;
   }
   .form-section img {
     display: block;

@@ -5,6 +5,8 @@
             margin: 40px auto;
             float: left;
             text-align: center;
+
+            
         }
 
         p {
@@ -13,77 +15,53 @@
             text-align: center;
             align-items: center;
         }
+
+        label {
+            display: flex;
+            width: 100%;
+            text-align: start;
+            transform: translateX(25%);
+            margin: 8px auto;
+
+        }
+
+        button {
+
+            text-decoration: none;
+            padding: 10px 10px;
+            position: relative;
+            display: inline-flex;
+            height: 100%;
+            background: #000000;
+            border: 2px solid #000000;
+            border-radius: 8px;
+            font-size: 19px;
+            color: #ffffff;
+            text-decoration: none;
+            z-index: 1;
+            overflow: hidden;
+            transition: .5s;
+
+            &:hover {
+                color: #000000;
+            }
+
+            &:nth-child(2) {
+                background: #000000;
+                color: #ffffff;
+            }
+
+
+
+        }
+
     }
-}
-
-
-
-.form-section form p label {
-    display: flex;
-    width: 100%;
-    text-align: start;
-    transform: translateX(25%);
-    margin: 8px auto;
-
-}
-
-
-.form-section form p button {
-    background-color: #6fff8d;
-    margin-left: 300px;
-    margin-top: 50px;
-    text-decoration: none;
-    color: #000000ee;
-    padding: 10px;
-    border-radius: 7px;
-    align-self: flex-end;
-    width: 150px;
-    text-align: center;
-}
-
-.form-section form p button {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 100%;
-    background: #000000;
-    border: 2px solid #000000;
-    border-radius: 8px;
-    font-size: 19px;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
-
-}
-
-.form-section form p button:hover {
-    color: #000000;
 
 
 }
 
-.form-section form p button:nth-child(2) {
-    background: #000000;
-    color: #ffffff;
-}
 
-.form-section form p button:nth-child(2):hover {
-    color: #000000;
-}
 
-.form-section form p button:nth-child(2)::before {
-    color: #000000ee;
-}
-
-.form-section form p button:nth-child(2) ::before {
-    background-color: #6fff8d;
-}
 
 .form-section form p button::before {
     content: '';
