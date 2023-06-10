@@ -5,8 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
+
+
 }
 
 body {
@@ -53,7 +53,7 @@ body {
     font-size: 40px;
 }
 
-.home-content h3 {
+.home-content h2 {
     font-size: 20px;
     margin: 20px 0 40px;
     text-align: justify;
@@ -141,6 +141,7 @@ body {
     margin-top: 20px;
 
 }
+
 .card_body {
 
     display: inline-block;
@@ -150,7 +151,8 @@ body {
     background-color: #6fff8d;
     margin-top: none;
     position: relative;
-} 
+}
+
 .card_body img {
     width: 100%;
     height: 30%;
@@ -387,8 +389,8 @@ body {
     transition: all 750ms ease;
     transform: rotate(45deg);
     box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
-  }
- 
+}
+
 
 /* PORTAFOLIO*/
 
@@ -899,7 +901,7 @@ body {
         padding-bottom: 20px;
         margin-bottom: 40px;
     }
-   
+
 
     .card_body h2,
     .card_body p {
@@ -920,8 +922,8 @@ body {
         width: 100%;
     }
 
-  
-/* FOOTER*/
+
+    /* FOOTER*/
 
     .footer {
         padding: 50px 0;
