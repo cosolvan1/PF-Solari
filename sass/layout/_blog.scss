@@ -1,5 +1,5 @@
 .container2 {
-    background-color: #ffffff;
+    background-color: #ff0707;
     width: 90%;
     max-width: 1000px;
     margin: 40px auto;
@@ -42,16 +42,11 @@
 
 }
 
-
-
-
-
-
-
-.container2>.content2,
-.container2>.sidebar,
-.container2>div {
-    background: #ffffff;
+.container2 > .h1,
+.container2 > .content2,
+.container2 > .sidebar,
+.container2 > div {
+    background: #dd0808;
     color: #000000;
     padding: 30px;
     border: 1px solid #000000;

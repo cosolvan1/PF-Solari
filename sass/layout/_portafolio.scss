@@ -22,6 +22,17 @@
         transition: .5s;
         overflow: hidden;
 
+        &:nth-child(odd) {
+            background-color: rgb(255, 255, 255);
+            color: #000000ee;
+            flex-direction: row-reverse;
+
+            &:hover {
+                background-color: #6fff8d;
+                box-shadow: 5px 5px 15px 0px #4a4a4a;
+            }
+        }
+
         &:hover {
             background-color: #ffffff;
             box-shadow: 5px 5px 15px 0px #4a4a4a;
@@ -33,8 +44,6 @@
                 height: 900px;
             }
 
-
-
         }
 
         img {
@@ -43,32 +52,12 @@
             object-fit: cover;
             filter: blur(5px);
             transition: .3s;
-
-
-
         }
 
-
-
-        ._container {
+        &__container {
             padding: 50px;
             width: 50%;
-
-            &:nth-child(odd) {
-                background-color: rgb(255, 255, 255);
-                color: #d41f1fee;
-                flex-direction: row-reverse;
-
-                &:hover {
-                    background-color: #6fff8d;
-                    box-shadow: 5px 5px 15px 0px #4a4a4a;
-                }
-            }
-
         }
     }
-
-
-
 
 }

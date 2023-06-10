@@ -1,8 +1,6 @@
 /* IMPORTACION DE CARPETA BASE*/
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,400;1,100;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,400;1,100;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -405,7 +403,7 @@ body {
 }
 
 .container2 {
-  background-color: #ffffff;
+  background-color: #ff0707;
   width: 90%;
   max-width: 1000px;
   margin: 40px auto;
@@ -432,10 +430,11 @@ body {
   margin-bottom: 50px;
 }
 
+.container2 > .h1,
 .container2 > .content2,
 .container2 > .sidebar,
 .container2 > div {
-  background: #ffffff;
+  background: #dd0808;
   color: #000000;
   padding: 30px;
   border: 1px solid #000000;
@@ -611,6 +610,15 @@ body {
   transition: 0.5s;
   overflow: hidden;
 }
+.pseudos .pseudo:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.9333333333);
+  flex-direction: row-reverse;
+}
+.pseudos .pseudo:nth-child(odd):hover {
+  background-color: #6fff8d;
+  box-shadow: 5px 5px 15px 0px #4a4a4a;
+}
 .pseudos .pseudo:hover {
   background-color: #ffffff;
   box-shadow: 5px 5px 15px 0px #4a4a4a;
@@ -628,18 +636,9 @@ body {
   filter: blur(5px);
   transition: 0.3s;
 }
-.pseudos .pseudo ._container {
+.pseudos .pseudo__container {
   padding: 50px;
   width: 50%;
-}
-.pseudos .pseudo ._container:nth-child(odd) {
-  background-color: rgb(255, 255, 255);
-  color: rgba(212, 31, 31, 0.9333333333);
-  flex-direction: row-reverse;
-}
-.pseudos .pseudo ._container:nth-child(odd):hover {
-  background-color: #6fff8d;
-  box-shadow: 5px 5px 15px 0px #4a4a4a;
 }
 
 @media (max-width: 991px) {
@@ -778,21 +777,6 @@ body {
     width: 100%;
     margin-bottom: 30px;
   }
-}
-.pseudo__container {
-  padding: 50px;
-  width: 50%;
-}
-
-.pseudo:nth-child(odd) {
-  background-color: rgb(255, 255, 255);
-  color: rgba(0, 0, 0, 0.9333333333);
-  flex-direction: row-reverse;
-}
-
-.pseudo:nth-child(odd):hover {
-  background-color: #6fff8d;
-  box-shadow: 5px 5px 15px 0px #4a4a4a;
 }
 
 /*# sourceMappingURL=style.CSS.map */
