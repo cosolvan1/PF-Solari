@@ -1,16 +1,6 @@
 /* IMPORTACION DE CARPETA BASE*/
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,400;1,100;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Oswald", sans-serif;
-}
-
-body {
-  height: 100vh;
-  background-color: #ffffff;
 }
 
 /* IMPORTACION DE CARPETA COMPONENTES*/
@@ -313,25 +303,30 @@ body {
   padding: 0% 5%;
 }
 .home-content {
-  max-width: 600px;
+  max-width: 400px;
   height: auto;
+  margin-left: 5%;
 }
 .home-content h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 1.2;
-  text-align: left;
-  margin-right: 100px;
+  text-align: center;
+  margin-top: 20%;
 }
 .home-content h2 {
-  font-size: 20px;
-  margin: 20px 0 40px;
-  text-align: justify;
-  margin-right: 150px;
+  font-size: 25px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  text-align: center;
 }
 
 .carousel {
   margin-top: 20px;
+  width: 60%;
+  margin-bottom: 5px;
+  min-height: 80%;
+  margin-left: 170px;
 }
 
 .cardsADN {
@@ -576,6 +571,13 @@ body {
     font-size: 30px;
     justify-content: center;
   }
+  .carousel {
+    margin-top: 100px;
+    width: 95%;
+    min-height: 80%;
+    margin-left: 0px;
+    margin-bottom: 60px;
+  }
   .form-section form p input,
   .form-section form p textarea {
     width: 100%;
@@ -616,7 +618,8 @@ body {
     margin-left: 50px;
     text-align: center;
   }
-  .cajas .caja h2, .cajas .caja p {
+  .cajas .caja h2,
+  .cajas .caja p {
     font-size: 40px;
     justify-content: center;
   }
@@ -700,10 +703,41 @@ body {
     filter: blur(0px);
     transition: 0.3s;
   }
+  .nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    font-size: 50px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+  .offcanvas-title {
+    margin-bottom: 0;
+    font-size: 60px;
+    line-height: var(--bs-offcanvas-title-line-height);
+  }
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: var(--bs-dropdown-link-color);
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    border-radius: var(--bs-dropdown-item-border-radius, 0);
+  }
   .card_body h2,
   .card_body p {
     color: #000000;
-    font-size: 50px;
+    font-size: 40px;
   }
   .caja img {
     object-fit: scale-down;
