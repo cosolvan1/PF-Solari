@@ -373,6 +373,8 @@
 .container2 .sidebar h2 {
   text-align: center;
   margin: 40px auto;
+  color: #000000;
+  text-decoration: underline;
 }
 .container2 .sidebar p {
   margin-bottom: 40px;
