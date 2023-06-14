@@ -1,6 +1,8 @@
 /* IMPORTACION DE CARPETA BASE*/
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,400;1,100;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,400;1,100;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap");
 * {
   font-family: "Oswald", sans-serif;
 }
@@ -102,7 +104,7 @@
 }
 .cards .card_body img:hover {
   background-color: #ffffff;
-  box-shadow: 5px 5px 15px 0px #4a4a4a;
+  box-shadow: 5px 5px 15px 0px #000000;
   color: #000000;
 }
 .cards .card_body h2 {
@@ -112,7 +114,7 @@
 .cards .card_body h2:hover {
   color: #F4EAD5;
   background-color: #000000;
-  box-shadow: 5px 5px 15px 0px #4a4a4a;
+  box-shadow: 5px 5px 15px 0px #000000;
 }
 
 .cajas {
@@ -129,7 +131,7 @@
 .cajas .caja p {
   padding: 0px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.9333333333);
+  color: #000000;
   margin-bottom: 50px;
 }
 .cajas .c4 {
@@ -256,7 +258,7 @@
   color: #000000;
 }
 .home-content .btn-box a:nth-child(2) a:nth-child(2)::before {
-  color: rgba(0, 0, 0, 0.9333333333);
+  color: #000000;
   background-color: #6fff8d;
 }
 .home-content .btn-box a:nth-child(2) a::before {
@@ -296,9 +298,7 @@
 .container2 .related-post:hover {
   color: #F4EAD5;
   background-color: #000000;
-}
-
-/* IMPORTACION DE CARPETA  LAYOUT*/
+} /* IMPORTACION DE CARPETA  LAYOUT*/
 .home {
   display: flex;
   align-items: center;
@@ -356,7 +356,7 @@
 }
 .cardsADN .card_bodyADN span:hover {
   color: #6fff8d;
-  background: black;
+  background: #000000;
   box-shadow: 15px 15px 15px 0px #000000;
 }
 
@@ -525,7 +525,7 @@
 }
 .pseudos .pseudo:nth-child(odd) {
   background-color: rgb(255, 255, 255);
-  color: rgba(0, 0, 0, 0.9333333333);
+  color: #000000;
   flex-direction: row-reverse;
 }
 .pseudos .pseudo:nth-child(odd):hover {
@@ -534,7 +534,7 @@
 }
 .pseudos .pseudo:hover {
   background-color: #ffffff;
-  box-shadow: 5px 5px 15px 0px #4a4a4a;
+  box-shadow: 5px 5px 15px 0px #000000;
   color: #000000;
 }
 .pseudos .pseudo:hover img {

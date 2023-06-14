@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 @media(max-width:991px) {
 
     .home {
@@ -257,7 +259,7 @@
     .card_body h2,
     .card_body p {
 
-        color: #000000;
+        color: $texto-primario;
         font-size: 40px;
 
     }

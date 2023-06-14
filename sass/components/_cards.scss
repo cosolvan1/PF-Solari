@@ -1,3 +1,6 @@
+@import '../base/variables';
+
+
 .cards {
     background-color: #6fff8d;
     text-align: center;
@@ -16,23 +19,23 @@
             width: 100%;
             height: 30%;
             object-fit: cover;
-            color: #000000;
+            color: $texto-primario;
 
             &:hover {
                 background-color: #ffffff;
-                box-shadow: 5px 5px 15px 0px #4a4a4a;
-                color: #000000;
+                box-shadow: 5px 5px 15px 0px $texto-primario;
+                color: $texto-primario;
             }
         }
 
         h2 {
             padding: 5%;
-            color: #000000;
+            color: $texto-primario;
 
             &:hover {
                 color: #F4EAD5;
-                background-color: #000000;
-                box-shadow: 5px 5px 15px 0px #4a4a4a;
+                background-color: $texto-primario;
+                box-shadow: 5px 5px 15px 0px $texto-primario;
             }
         }
 
@@ -56,7 +59,7 @@
     .caja p {
         padding: 0px;
         text-align: center;
-        color: #000000ee;
+        color: $texto-primario;
         margin-bottom: 50px;
     }
 

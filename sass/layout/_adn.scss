@@ -1,3 +1,6 @@
+
+@import '../base/variables';
+
 .cardsADN {
 
     text-align: center;
@@ -8,7 +11,7 @@
         height: 30%;
         font-size: 50px;
         object-fit: cover;
-        color: #000000;
+        color: $texto-primario;
         display: inline-block;
         width: 30%;
         text-align: center;
@@ -22,13 +25,13 @@
         }
 
         span {
-            color: #000000;
+            color: $texto-primario;
 
             &:hover {
                 color: #6fff8d;
-                background: black;
+                background: $texto-primario;
                 
-                box-shadow: 15px 15px 15px 0px #000000;
+                box-shadow: 15px 15px 15px 0px $texto-primario;
                 
                 
                 

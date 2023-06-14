@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .home-content .btn-box {
     display: flex;
     justify-content: space-between;
@@ -10,8 +12,8 @@
         align-items: center;
         width: 150px;
         height: 100%;
-        background: #000000;
-        border: 2px solid #000000;
+        background: $texto-primario;
+        border: 2px solid $texto-primario;
         border-radius: 8px;
         font-size: 19px;
         color: #ffffff;
@@ -23,15 +25,15 @@
         transition: .5s;
 
         &:nth-child(2) {
-            background: #000000;
+            background: $texto-primario;
             color: #ffffff;
 
             &:hover {
-                color: #000000;
+                color: $texto-primario;
             }
 
             & a:nth-child(2)::before {
-                color: #000000ee;
+                color: $texto-primario;
                 background-color: #6fff8d;
             }
 
