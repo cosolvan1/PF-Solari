@@ -22,8 +22,8 @@
             color: $texto-primario;
 
             &:hover {
-                background-color: #ffffff;
-                box-shadow: 5px 5px 15px 0px $texto-primario;
+                background-color: $background-primario;
+                @include box-shadow;
                 color: $texto-primario;
             }
         }
@@ -64,7 +64,7 @@
     }
 
     .c4 {
-        background-color: #ffffff;
+        background-color: $background-primario;
         width: 100%;
         display: flex;
         align-items: center;

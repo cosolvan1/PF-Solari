@@ -33,7 +33,7 @@
 .container2 > .content2,
 .container2 > .sidebar,
 .container2 > div {
-    background: #ffffff;
+    background: $background-primario;
     color: $texto-primario;
     padding: 30px;
     border: 3px solid $texto-primario;

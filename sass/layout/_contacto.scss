@@ -38,7 +38,7 @@
             border: 2px solid $texto-primario;
             border-radius: 8px;
             font-size: 19px;
-            color: #ffffff;
+            color: $background-primario;
             text-decoration: none;
             z-index: 1;
             overflow: hidden;
@@ -50,7 +50,7 @@
 
             &:nth-child(2) {
                 background: $texto-primario;
-                color: #ffffff;
+                color: $background-primario;
             }
 
 

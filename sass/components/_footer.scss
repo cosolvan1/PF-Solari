@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .footer {
     background-color: #6fff8d;
     &-columna {
@@ -13,10 +15,10 @@
 
         h4 {
             font-size: 30px;
-            color: #000000;
+            color: $texto-primario;
             text-decoration: none;
             margin-bottom: 5px;
-            border-bottom: 2px solid #000000;
+            border-bottom: 2px solid $texto-primario;
             padding-bottom: 10px;
             display: block;
             margin-top: 100px;
@@ -25,13 +27,13 @@
         ul li a {
             font-size: 18px;
             text-decoration: none;
-            color: #000000;
+            color: $texto-primario;
             display: flex;
             margin-bottom: auto;
             transition: all .3s ease;
 
             &:hover {
-                color: #ffffff;
+                color: $background-primario;
                 padding-left: 6px;
             }
         }
@@ -50,10 +52,10 @@
                 width: 40px;
                 height: 40px;
                 background: transparent;
-                border: 2px solid #000000;
+                border: 2px solid $texto-primario;
                 border-radius: 50%;
                 font-size: 30px;
-                color: #000000;
+                color: $texto-primario;
                 text-decoration: none;
                 z-index: 1;
                 overflow: hidden;
@@ -65,7 +67,7 @@
                     left: 0;
                     width: 0%;
                     height: 100%;
-                    background: #ffffff;
+                    background: $background-primario;
                     z-index: -1;
                     transition: .5s;
             

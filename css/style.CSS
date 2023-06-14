@@ -357,7 +357,7 @@
 .cardsADN .card_bodyADN span:hover {
   color: #6fff8d;
   background: #000000;
-  box-shadow: 15px 15px 15px 0px #000000;
+  box-shadow: 5px 5px 15px 0px #000000;
 }
 
 .container2 {
@@ -524,7 +524,7 @@
   overflow: hidden;
 }
 .pseudos .pseudo:nth-child(odd) {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   color: #000000;
   flex-direction: row-reverse;
 }

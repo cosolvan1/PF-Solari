@@ -25,7 +25,7 @@
         overflow: hidden;
 
         &:nth-child(odd) {
-            background-color: rgb(255, 255, 255);
+            background-color: $background-primario;
             color: $texto-primario;
             flex-direction: row-reverse;
 
@@ -36,7 +36,7 @@
         }
 
         &:hover {
-            background-color: #ffffff;
+            background-color: $background-primario;
             @include box-shadow;
             color: $texto-primario;
             img {

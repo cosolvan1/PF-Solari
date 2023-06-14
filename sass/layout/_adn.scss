@@ -30,8 +30,7 @@
             &:hover {
                 color: #6fff8d;
                 background: $texto-primario;
-                
-                box-shadow: 15px 15px 15px 0px $texto-primario;
+                @include box-shadow;
                 
                 
                 
