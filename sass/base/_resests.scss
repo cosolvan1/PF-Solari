@@ -1,4 +1,9 @@
+@import '../base/variables';
+
 * {
     font-family: 'Oswald', sans-serif;
     
+}
+body {
+background-color: $background-primario;
 }
