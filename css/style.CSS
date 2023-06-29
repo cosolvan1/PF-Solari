@@ -676,8 +676,8 @@ body {
   }
   .navbar-toggler-icon {
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 5.5 rem;
+    height: 5.5 rem;
     vertical-align: middle;
     background-image: var(--bs-navbar-toggler-icon-bg);
     background-repeat: no-repeat;
@@ -764,11 +764,11 @@ body {
     padding: 50px 0;
   }
   .footer-links h4 {
-    font-size: 60px;
+    font-size: 30px;
   }
   .footer-links ul li a {
     flex-direction: column;
-    font-size: 50px;
+    font-size: 20px;
   }
   .footer-columna {
     text-align: center;
