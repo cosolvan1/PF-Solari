@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,300;0,400;1,100;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Oswald:wght@700&family=Roboto:ital,wght@0,400;1,100;1,400;1,700&display=swap");
+
 * {
   font-family: "Oswald", sans-serif;
 }
@@ -15,14 +16,17 @@ body {
 .footer {
   background-color: #6fff8d;
 }
+
 .footer-columna {
   display: flex;
   flex-wrap: wrap;
 }
+
 .footer-links {
   width: 45%;
   padding: 0 15px;
 }
+
 .footer-links h4 {
   font-size: 30px;
   color: #000000;
@@ -33,6 +37,93 @@ body {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.wiggle-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  animation: wiggle 2s linear infinite;
+
+  animation-delay: 1s;
+  color: #000000;
+
+}
+
+.wiggle-btn:hover {
+  animation: none;
+}
+
+@keyframes wiggle {
+
+  0%,
+  5% {
+    transform: rotateZ(0);
+  }
+
+  15% {
+    transform: rotateZ(-15deg);
+  }
+
+  20% {
+    transform: rotateZ(10deg);
+  }
+
+  25% {
+    transform: rotateZ(-10deg);
+  }
+
+  30% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+.wiggle-btn:before {
+  z-index: 000;
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  background-color: #000000;
+  box-shadow: 0 5px 25px rgba(2, 2, 2, 0.5);
+}
+
+.wiggle-btn span {
+  z-index: 222;
+  position: absolute;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+}
+
+.wiggle-btn .btn-img {
+  z-index: 111;
+  width: 250px;
+}
+
+
+
+
+
+
 .footer-links ul li a {
   font-size: 18px;
   text-decoration: none;
@@ -41,16 +132,19 @@ body {
   margin-bottom: auto;
   transition: all 0.3s ease;
 }
+
 .footer-links ul li a:hover {
   color: #ffffff;
   padding-left: 6px;
 }
+
 .footer-links .social-links {
   bottom: 40px;
   width: 45%;
   display: flex;
   justify-content: space-between;
 }
+
 .footer-links .social-links a {
   position: relative;
   display: inline-flex;
@@ -67,6 +161,7 @@ body {
   z-index: 1;
   overflow: hidden;
 }
+
 .footer-links .social-links a::before {
   content: "";
   position: absolute;
@@ -78,9 +173,11 @@ body {
   z-index: -1;
   transition: 0.5s;
 }
+
 .footer-links .social-links a::before:hover::before {
   width: 100%;
 }
+
 .footer-links .social-links a:hover::before {
   width: 100%;
 }
@@ -90,6 +187,7 @@ body {
   text-align: center;
   margin-top: 20px;
 }
+
 .cards .card_body {
   display: inline-block;
   width: 30%;
@@ -99,21 +197,25 @@ body {
   margin-top: none;
   position: relative;
 }
+
 .cards .card_body img {
   width: 100%;
   height: 30%;
   object-fit: cover;
   color: #000000;
 }
+
 .cards .card_body img:hover {
   background-color: #ffffff;
   box-shadow: 5px 5px 15px 0px #000000;
   color: #000000;
 }
+
 .cards .card_body h2 {
   padding: 5%;
   color: #000000;
 }
+
 .cards .card_body h2:hover {
   color: #F4EAD5;
   background-color: #000000;
@@ -124,12 +226,14 @@ body {
   margin-top: 50px;
   text-align: center;
 }
+
 .cajas img {
   margin-top: 0px;
   width: 100%;
   height: 900px;
   object-fit: cover;
 }
+
 .cajas .caja h2,
 .cajas .caja p {
   padding: 0px;
@@ -137,6 +241,7 @@ body {
   color: #000000;
   margin-bottom: 50px;
 }
+
 .cajas .c4 {
   background-color: #ffffff;
   width: 100%;
@@ -145,11 +250,13 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .cajas .c4 img {
   width: 50%;
   height: 100%;
   margin-top: 80px;
 }
+
 .cajas .c4 h3 {
   text-align: center;
   margin-top: 40px;
@@ -158,14 +265,17 @@ body {
 .footer {
   background-color: #6fff8d;
 }
+
 .footer-columna {
   display: flex;
   flex-wrap: wrap;
 }
+
 .footer-links {
   width: 45%;
   padding: 0 15px;
 }
+
 .footer-links h4 {
   font-size: 30px;
   color: #000000;
@@ -176,6 +286,7 @@ body {
   margin-top: 50px;
   margin-bottom: 20px;
 }
+
 .footer-links ul li a {
   font-size: 18px;
   text-decoration: none;
@@ -184,16 +295,19 @@ body {
   margin-bottom: auto;
   transition: all 0.3s ease;
 }
+
 .footer-links ul li a:hover {
   color: #ffffff;
   padding-left: 6px;
 }
+
 .footer-links .social-links {
   bottom: 40px;
   width: 45%;
   display: flex;
   justify-content: space-between;
 }
+
 .footer-links .social-links a {
   position: relative;
   display: inline-flex;
@@ -210,6 +324,7 @@ body {
   z-index: 1;
   overflow: hidden;
 }
+
 .footer-links .social-links a::before {
   content: "";
   position: absolute;
@@ -221,9 +336,11 @@ body {
   z-index: -1;
   transition: 0.5s;
 }
+
 .footer-links .social-links a::before:hover::before {
   width: 100%;
 }
+
 .footer-links .social-links a:hover::before {
   width: 100%;
 }
@@ -233,6 +350,7 @@ body {
   justify-content: space-between;
   width: 345px;
 }
+
 .home-content .btn-box a {
   position: relative;
   display: inline-flex;
@@ -252,17 +370,21 @@ body {
   overflow: hidden;
   transition: 0.5s;
 }
+
 .home-content .btn-box a:nth-child(2) {
   background: #000000;
   color: #ffffff;
 }
+
 .home-content .btn-box a:nth-child(2):hover {
   color: #000000;
 }
+
 .home-content .btn-box a:nth-child(2) a:nth-child(2)::before {
   color: #000000;
   background-color: #6fff8d;
 }
+
 .home-content .btn-box a:nth-child(2) a::before {
   content: "";
   position: absolute;
@@ -274,6 +396,7 @@ body {
   z-index: -1;
   transition: 0.5s;
 }
+
 .home-content .btn-box a:nth-child(2) a::before:hover:before {
   width: 100%;
 }
@@ -294,9 +417,11 @@ body {
   gap: 70px;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .container2 .related-post {
   text-align: center;
 }
+
 .container2 .related-post:hover {
   color: #F4EAD5;
   background-color: #000000;
@@ -409,11 +534,13 @@ form button {
   align-items: center;
   padding: 0% 5%;
 }
+
 .home-content {
   max-width: 400px;
   height: auto;
   margin-left: 5%;
 }
+
 .home-content h1 {
   font-size: 60px;
   font-weight: 700;
@@ -421,6 +548,7 @@ form button {
   text-align: center;
   margin-top: 20%;
 }
+
 .home-content h2 {
   font-size: 25px;
   margin-top: 15%;
@@ -440,6 +568,7 @@ form button {
   text-align: center;
   margin-top: 20px;
 }
+
 .cardsADN .card_bodyADN {
   width: 100%;
   height: 30%;
@@ -453,12 +582,15 @@ form button {
   margin-top: none;
   position: relative;
 }
+
 .cardsADN .card_bodyADN h2 {
   margin-bottom: 100px;
 }
+
 .cardsADN .card_bodyADN span {
   color: #000000;
 }
+
 .cardsADN .card_bodyADN span:hover {
   color: #6fff8d;
   background: #000000;
@@ -468,6 +600,7 @@ form button {
 .container2 {
   grid-template-columns: repeat(2, 1fr);
 }
+
 .container2 .sidebar img {
   padding: 20px;
   justify-content: center;
@@ -475,33 +608,35 @@ form button {
   width: 100%;
   grid-column: span 4;
 }
+
 .container2 .sidebar h2 {
   text-align: center;
   margin: 40px auto;
   color: #000000;
   text-decoration: underline;
 }
+
 .container2 .sidebar p {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.container2 > .h1,
-.container2 > .content2,
-.container2 > .sidebar,
-.container2 > div {
+.container2>.h1,
+.container2>.content2,
+.container2>.sidebar,
+.container2>div {
   background: #ffffff;
   color: #000000;
   padding: 30px;
   border: 3px solid #000000;
 }
 
-.container2 > .content2 {
+.container2>.content2 {
   grid-column: span 2;
   border: 3px solid #000000;
 }
 
-.container2 > .sidebar {
+.container2>.sidebar {
   grid-column: span 2;
 }
 
@@ -511,12 +646,14 @@ form button {
   float: left;
   text-align: center;
 }
+
 .contacto .form-section p {
   font-size: 20px;
   color: #000000;
   text-align: center;
   align-items: center;
 }
+
 .contacto .form-section label {
   display: flex;
   width: 100%;
@@ -524,6 +661,7 @@ form button {
   transform: translateX(25%);
   margin: 8px auto;
 }
+
 .contacto .form-section button {
   text-decoration: none;
   padding: 10px 10px;
@@ -540,9 +678,11 @@ form button {
   overflow: hidden;
   transition: 0.5s;
 }
+
 .contacto .form-section button:hover {
   color: #000000;
 }
+
 .contacto .form-section button:nth-child(2) {
   background: #000000;
   color: #ffffff;
@@ -616,6 +756,7 @@ form button {
   gap: 40px;
   padding: 20px;
 }
+
 .pseudos .pseudo {
   width: 90%;
   height: 600px;
@@ -628,25 +769,30 @@ form button {
   transition: 0.5s;
   overflow: hidden;
 }
+
 .pseudos .pseudo:nth-child(odd) {
   background-color: #ffffff;
   color: #000000;
   flex-direction: row-reverse;
 }
+
 .pseudos .pseudo:nth-child(odd):hover {
   background-color: #6fff8d;
   box-shadow: 5px 5px 15px 0px #4a4a4a;
 }
+
 .pseudos .pseudo:hover {
   background-color: #ffffff;
   box-shadow: 5px 5px 15px 0px #000000;
   color: #000000;
 }
+
 .pseudos .pseudo:hover img {
   filter: blur(0);
   width: 50%;
   height: 900px;
 }
+
 .pseudos .pseudo img {
   width: 40%;
   height: 100%;
@@ -654,6 +800,7 @@ form button {
   filter: blur(5px);
   transition: 0.3s;
 }
+
 .pseudos .pseudo__container {
   padding: 50px;
   width: 50%;
@@ -663,17 +810,21 @@ form button {
   .home {
     flex-direction: column;
   }
+
   .home-content h1 {
     width: 100%;
     font-size: 100px;
   }
+
   .home-content h2 {
     font-size: 60px;
     margin-top: 10%;
   }
+
   .navbar-brand img {
     width: 50%;
   }
+
   .cajas .caja h2,
   .cajas .caja p {
     font-size: 50px;
@@ -681,6 +832,7 @@ form button {
     margin-left: 150px;
     margin-top: 40px;
   }
+
   .carousel {
     margin-top: 100px;
     width: 95%;
@@ -688,6 +840,7 @@ form button {
     margin-left: 0px;
     margin-bottom: 60px;
   }
+
   .form-section form p input,
   .form-section form p textarea {
     width: 100%;
@@ -697,15 +850,18 @@ form button {
     margin-bottom: 40px;
     transform: none;
   }
+
   .form-section form p button {
     width: 70%;
     display: flex;
     margin: auto;
     align-items: center;
   }
+
   .contacto .form-section button {
     font-size: 50px;
   }
+
   .form-section img {
     display: block;
     width: 560px;
@@ -713,63 +869,80 @@ form button {
     margin: 30px auto;
     object-fit: fill;
   }
+
   .form-section form h3 {
     font-size: 0px;
     margin-right: 0px;
     padding-top: 0px;
   }
+
   .form-section form p input,
   .form-section form p textarea {
     font-size: 50px;
     padding: 20px;
   }
+
   .form-section form p label {
     font-size: 40px;
     margin-left: 50px;
     text-align: center;
   }
+
   .pseudos .pseudo__container h2 {
     font-size: 80px;
   }
+
   .pseudos .pseudo__container span {
     font-size: 30px;
   }
+
   .form-section {
     display: flex;
     flex-direction: column;
   }
+
   .cardsADN .card_bodyADN img {
     display: none;
   }
+
   .cardsADN .card_bodyADN {
     width: auto;
   }
+
   .card_bodyADN p {
     font-size: 50px;
   }
+
   .sidebar img {
     width: 100%;
   }
+
   .sidebar p {
     text-align: center;
   }
+
   .related-post {
     text-align: center;
   }
+
   .caja_content h2 {
     font-size: 30px;
     justify-content: center;
   }
+
   .card_body {
     display: contents;
   }
+
   .cajas img {
     width: 100%;
   }
+
   .card_body h2,
   .card_body p {
     font-size: 20px;
   }
+
   .form-section img {
     object-fit: scale-down;
     margin-top: 0px;
@@ -777,6 +950,7 @@ form button {
     height: 100%;
     align-content: center;
   }
+
   .navbar-toggler-icon {
     display: inline-block;
     width: 5.5 rem;
@@ -787,29 +961,36 @@ form button {
     background-position: center;
     background-size: 100%;
   }
+
   .caja_content a {
     position: static;
   }
+
   .caja h2 {
     font-size: 20px;
   }
+
   .caja h3 {
     font-size: 80px;
   }
+
   .caja img {
     padding-bottom: 20px;
     margin-bottom: 40px;
   }
+
   .cajas .c4 img {
     width: 100%;
     height: 100%;
     margin-top: 80px;
   }
+
   .pseudo p {
     margin-top: 0;
     margin-bottom: 1rem;
     display: none;
   }
+
   .pseudos .pseudo img {
     width: 40%;
     height: 100%;
@@ -817,6 +998,7 @@ form button {
     filter: blur(0px);
     transition: 0.3s;
   }
+
   .nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -828,11 +1010,13 @@ form button {
     font-size: 45px;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   }
+
   .offcanvas-title {
     margin-bottom: 0;
     font-size: 60px;
     line-height: var(--bs-offcanvas-title-line-height);
   }
+
   .dropdown-item {
     display: block;
     width: 100%;
@@ -848,44 +1032,57 @@ form button {
     border: 0;
     border-radius: var(--bs-dropdown-item-border-radius, 0);
   }
+
   .card_body h2,
   .card_body p {
     color: #000000;
     font-size: 40px;
   }
+
   .caja img {
     object-fit: scale-down;
     margin-top: 0px;
     width: 100%;
     height: 100%;
   }
+
   .card_body img {
     flex-direction: column;
     width: 100%;
   }
+
   .footer {
     padding: 50px 0;
   }
+
   .footer-links h4 {
     font-size: 30px;
   }
+
   .footer-links ul li a {
     flex-direction: column;
     font-size: 20px;
   }
+
   .footer-columna {
     text-align: center;
   }
+
   .bxl-linkedin-square:before {
     content: "\e94e";
   }
-  *, ::after, ::before {
+
+  *,
+  ::after,
+  ::before {
     box-sizing: border-box;
   }
+
   .bx {
     width: 100%;
     height: 100%;
   }
+
   .footer-links .social-links {
     bottom: 40px;
     width: 60%;
@@ -893,6 +1090,7 @@ form button {
     margin-top: 30px;
     margin-left: 120px;
   }
+
   .footer-links .social-links a {
     width: 100%;
     height: 100%;
@@ -905,6 +1103,7 @@ form button {
     z-index: 1;
     overflow: hidden;
   }
+
   .container2 .sidebar h2 {
     text-align: center;
     margin: 40px auto;
@@ -912,11 +1111,13 @@ form button {
     font-size: 40px;
     text-decoration: underline;
   }
+
   .container2 .sidebar p {
     margin-bottom: 40px;
     text-align: center;
     font-size: 40px;
   }
+
   .footer-links {
     width: 100%;
     margin-bottom: 30px;
