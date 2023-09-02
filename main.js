@@ -1,44 +1,39 @@
-// comentario de línea 
 
-/*
-comentario
-de
-bloque
-*/
-// forma recomendada para declarar variable
-let edad = 15;
-let nombre ="ricardo";
+var Form1 = document.getElementById("Form1");
+var Form2 = document.getElementById("Form2");
+var Form3 = document.getElementById("Form3");
 
-//forma no recomedada para declarar variables
-var numero = 4;
+var siguiente1 = document.getElementById("siguiente1");
+var siguiente2 = document.getElementById("siguiente2");
+var Atras1 = document.getElementById("Atras1");
+var atras2 = document.getElementById("atras2");
 
-//constantes
-const NUMERO = 5;
+var progreso = document.getElementById("progreso");
 
-//edad = 20;
+siguiente1.onclick = function () {
+    Form1.style.left = "-450px";
+    Form2.style.left = "40px";
+    progreso.style.width = "240px";
+}
 
-// camelCase => nombreBonitoGrande <-- este siempre
-// snake_case => nombre_bonito_grande
-// PascalCase => NombreBonitoGrande < --- más adelante
+Atras1.onclick = function () {
+    Form1.style.left = "40px";
+    Form2.style.left = "450px";
+    progreso.style.width = "120px";
+}
 
-let numeroUno = 3;
-let numeroDos =5;
+siguiente2.onclick = function () {
+    Form2.style.left = "-450px";
+    Form3.style.left = "40px";
+    progreso.style.width = "360px";
+}
 
-let resultadosSuma = numeroUno + numeroDos;
-let resultadosResta = numeroUno - numeroDos;
-let resultadosMultiplicacion = numeroUno * numeroDos;
-let resultadosDivision = numeroUno / numeroDos;
+atras2.onclick = function () {
+    Form2.style.left = "40px";
+    Form3.style.left = "450px";
+    progreso.style.width = "240px";
+}
 
-console.log("resultado suma", resultadosSuma);
-console.log("resultado resta", resultadosResta);
-console.log("resultado multiplicacion", resultadosMultiplicacion);
-console.log("resultado division", resultadosDivision);
 
-// let saludo = "Hola";
-// let nombre = "Camila";
-// let saludoCompleto = saludo + " " + nombre;
 
-//console.log(saludoCompleto);
 
-let nombre = prompt("Ingrese su nombre");
-alert(nombre);
