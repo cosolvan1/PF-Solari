@@ -34,6 +34,28 @@ atras2.onclick = function () {
     progreso.style.width = "240px";
 }
 
+siguiente3.onclick = function () {
+    Form3.style.left = "-450px";
+    Form4.style.left = "40px";
+    progreso.style.width = "480px";
+}
 
+atras3.onclick = function () {
+    Form3.style.left = "40px";
+    Form4.style.left = "450px";
+    progreso.style.width = "360px";
+}
+
+siguiente4.onclick = function () {
+    Form4.style.left = "-450px";
+    Form5.style.left = "40px";
+    progreso.style.width = "600px";
+}
+
+atras4.onclick = function () {
+    Form4.style.left = "40px";
+    Form5.style.left = "450px";
+    progreso.style.width = "480px";
+}
 
 
