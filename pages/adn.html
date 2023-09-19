@@ -95,8 +95,11 @@
 
     <main>
         <div class="carousel">
-            <h2>¡Elige el servicio que buscas</h2>
+
+            <h2>¡Elige el servicio que buscas!</h2>
+
             <div class="carrusel-list" id="carrusel-list">
+
                 <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
                     onclick="app.processingButton(event)">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
@@ -107,11 +110,15 @@
                         </path>
                     </svg>
                 </button>
+
+
+
+
                 <div class="carrusel-track" id="track">
                     <div class="carrusel">
                         <div>
                             <a href="/">
-                                <h4> <small>Diseño Gráfico</small> Mas </h4>
+                                <h4> <small>Diseño Gráfico</small> </h4>
                                 <picture>
                                     <img src="/images/1.jpg" alt="imagen">
                                 </picture>
@@ -123,7 +130,7 @@
 
                         <div>
                             <a href="/">
-                                <h4> <small>UX/UI</small> Mas </h4>
+                                <h4> <small>UX/UI</small></h4>
                                 <picture>
                                     <img src="/images/2.jpg" alt="imagen">
                                 </picture>
@@ -135,7 +142,7 @@
 
                         <div>
                             <a href="/">
-                                <h4> <small>Branding</small> Mas </h4>
+                                <h4> <small>Branding</small> </h4>
                                 <picture>
                                     <img src="/images/3.jpg" alt="imagen">
                                 </picture>
@@ -147,7 +154,7 @@
 
                         <div>
                             <a href="/">
-                                <h4> <small>Comunicación Coorporativa</small> Mas </h4>
+                                <h4> <small>Comunicación Coorporativa</small> </h4>
                                 <picture>
                                     <img src="/images/4.jpg" alt="imagen">
                                 </picture>
@@ -159,7 +166,7 @@
 
                         <div>
                             <a href="/">
-                                <h4> <small>Branding </small> Mas </h4>
+                                <h4> <small>Branding </small> </h4>
                                 <picture>
                                     <img src="/images/5.jpg" alt="imagen">
                                 </picture>
@@ -171,7 +178,7 @@
 
                         <div>
                             <a href="/">
-                                <h4> <small>Brain Storming</small> Mas </h4>
+                                <h4> <small>Brain Storming</small> </h4>
                                 <picture>
                                     <img src="/images/6.jpg" alt="imagen">
                                 </picture>
@@ -183,7 +190,7 @@
 
                         <div>
                             <a href="/">
-                                <h4> <small>Fotografía</small> Mas </h4>
+                                <h4> <small>Fotografía</small> </h4>
                                 <picture>
                                     <img src="/images/7.jpg" alt="imagen">
                                 </picture>
@@ -195,7 +202,7 @@
 
                         <div>
                             <a href="/">
-                                <h4> <small>Packaging</small> Mas </h4>
+                                <h4> <small>Packaging</small> </h4>
                                 <picture>
                                     <img src="/images/8.jpg" alt="imagen">
                                 </picture>
@@ -204,52 +211,121 @@
                     </div>
 
                     <div class="carrusel">
-
                         <div>
                             <a href="/">
-                                <h4> <small>Logística</small> Mas </h4>
+                                <h4> <small>Logística</small> </h4>
                                 <picture>
                                     <img src="/images/9.jpg" alt="imagen">
                                 </picture>
                             </a>
                         </div>
                     </div>
-                    <div class="carrusel">
 
+                    <div class="carrusel">
                         <div>
                             <a href="/">
-                                <h4> <small>Desarrollo Web</small> Mas </h4>
+                                <h4> <small>Desarrollo Web</small> </h4>
                                 <picture>
                                     <img src="/images/10.jpg" alt="imagen">
                                 </picture>
                             </a>
                         </div>
                     </div>
-
-
-
-
                 </div>
-
-                <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
-                    onclick="app.processingButton(event)">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
-                        class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 320 512">
-                        <path fill="currentColor"
-                            d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
-                        </path>
-                    </svg>
-                </button>
-
-
             </div>
-
         </div>
 
 
-        <script src="main.js"></script>
+
+        <div class="popupcontainer">
+
+            <form id="Form1">
+                <h3>¿Descuento del 20%? </h3>
+                <input type="texto" placeholder="Nombre y Apellido" required>
+                <input type="contraseña" placeholder="Email" required>
+                <input type="contraseña" placeholder="¿Es tu primer proyecto? Sí/No" required>
+
+                <div class="btn-box">
+                    <button type="button" id="siguiente1">Siguiente</button>
+                </div>
+            </form>
+
+            <form id="Form2">
+                <h3>¡Elige un servicio!</h3>
+                <input type="texto" placeholder="escríbelo aquí">
+                
+
+
+                <div class="btn-box">
+                    <button type="button" id="Atras1">Atras</button>
+                    <button type="button" id="siguiente2">Siguiente</button>
+                </div>
+            </form>
+
+            <form id="Form3">
+                <h3>¡Gran elección!</h3>
+                <input type="texto" placeholder="Se realizó el descuento" required>
+                <input type="texto" placeholder="Revisa tu correo" required>
+                <input type="texto" placeholder="¡Iniciemos!" required>
+
+
+                <div class="btn-box">
+                    <button type="button" id="atras2">Atras</button>
+                    <button type="Terminar">Finalizar</button>
+                </div>
+            </form>
+
+
+            <dvi class="step-row">
+                <div id="progreso"></div>
+                <div class="step-col"><small>Paso 1</small></div>
+                <div class="step-col"><small>Paso 2</small></div>
+                <div class="step-col"><small>Paso 3</small></div>
+
+            </dvi>
+
+            
+        </div>
+<script>
+    var Form1 = document.getElementById("Form1");
+var Form2 = document.getElementById("Form2");
+var Form3 = document.getElementById("Form3");
+
+var siguiente1 = document.getElementById("siguiente1");
+var siguiente2 = document.getElementById("siguiente2");
+var Atras1 = document.getElementById("Atras1");
+var atras2 = document.getElementById("atras2");
+
+var progreso = document.getElementById("progreso");
+
+siguiente1.onclick = function () {
+    Form1.style.left = "-450px";
+    Form2.style.left = "40px";
+    progreso.style.width = "240px";
+}
+
+Atras1.onclick = function () {
+    Form1.style.left = "40px";
+    Form2.style.left = "450px";
+    progreso.style.width = "120px";
+}
+
+siguiente2.onclick = function () {
+    Form2.style.left = "-450px";
+    Form3.style.left = "40px";
+    progreso.style.width = "360px";
+}
+
+atras2.onclick = function () {
+    Form2.style.left = "40px";
+    Form3.style.left = "450px";
+    progreso.style.width = "240px";
+}
+</script>
+        
     </main>
+
+
 
 
 
@@ -294,6 +370,7 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 
+    <script src="./main.js"></script>
 </body>
 
 </html>

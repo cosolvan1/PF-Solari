@@ -1,6 +1,8 @@
 
 
-h4, h2 , small a {
+h4,
+h2,
+small a {
     margin: 0;
     padding: 0;
 }
@@ -31,10 +33,7 @@ a {
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
-    color:#000000;
-
-    
-
+    color: #000000;
 }
 
 .carrusel-list {
@@ -51,8 +50,8 @@ a {
 
 .carrusel-track {
     position: relative;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     transition: .5s ease-in-out;
@@ -60,7 +59,7 @@ a {
 }
 
 .carrusel {
-    position:  relative;
+    position: relative;
     width: 210px;
     padding: 0 18px;
     float: left;
@@ -72,26 +71,36 @@ a {
 .carrusel h4 {
     position: absolute;
     z-index: 1;
-    font-size: 30px;
-    line-height: 23px;
+    font-size: 42px;
+    line-height: 43px;
     color: #ffffff;
     padding: 15px;
 }
 
 .carrusel h4 small {
-    font-size: 15px;
+    font-size: 40px;
     display: block;
 
 }
 
 .carrusel a img {
-    object-fit: cover;
+    object-fit:cover;
     height: 300px;
-    width: 200px;
+    width: 00px;
     border-radius: 15px;
-    box-shadow: 0 2px 5px rgb(0,0,0,0.5);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
     transition: .3s ease-in-out;
 
+}
+
+@media(min-width:760px){
+    .carrusel {
+        width:275px;
+    }
+
+    .carrusel a img {
+        width: 250px;
+    }
 }
 
 .carrusel-arrow {
@@ -102,7 +111,7 @@ a {
     width: 48px;
     height: 48px;
     text-align: center;
-    border:0;
+    border: 0;
     cursor: pointer;
 }
 
@@ -117,9 +126,10 @@ a {
     color: #000000;
 }
 
-.carrusel-prev{
+.carrusel-prev {
     left: 0px;
 }
+
 .carrusel-next {
     right: 0px;
 }

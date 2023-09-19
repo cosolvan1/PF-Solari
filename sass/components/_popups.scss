@@ -1,4 +1,3 @@
-
 .popupcontainer {
     width: 360px;
     height: 400px;
@@ -6,17 +5,17 @@
     background: #f3f3f3;
     border-radius: 5px;
     position: relative;
-    box-shadow:  5px 5px 5px #b3b2b2;
+    box-shadow: 5px 5px 5px #b3b2b2;
     overflow: hidden;
 }
 
 h3 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: #777;
 }
 
-.popupcontainer form{
+.popupcontainer form {
     width: 280px;
     position: absolute;
     top: 100px;
@@ -24,7 +23,7 @@ h3 {
     transition: 0.5s;
 }
 
-form input{
+form input {
     width: 100%;
     padding: 10px 5px;
     margin: 5px 0;
@@ -36,7 +35,7 @@ form input{
 }
 
 ::placeholder {
-    color:#777;
+    color: #777;
 }
 
 .btn-box {
@@ -86,18 +85,18 @@ form button {
     position: absolute;
     height: 100%;
     width: 120px;
-    background-color:#6fff8d;
+    background-color: #6fff8d;
     transition: 1s;
 }
 
-#progreso::after{
-    content:'';
+#progreso::after {
+    content: '';
     height: 0;
     width: 0;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     position: absolute;
-    right: -20px;  
+    right: -20px;
     top: 0;
     border-left: 20px solid #6fff8d;
 
