@@ -35,6 +35,28 @@ atras2.onclick = function () {
 }
 
 
+class Servicio {
+    constructor (id, nombre, precio) {
+        this.id = id;
+        this.nombre = nombre;
+        this.precios = precio;
+        this.imagen = `${id}.jgp`;
+        this.altinf = `imagen del servicio ${nombre}`;
+    }
+    
+}
+
+const productos = [];
+
+productos.push(new Servicio("1", "Desarrollo Web", 1000));
+productos.push(new Servicio("2", "Desarrollo Web", 1000));
+productos.push(new Servicio("3", "Desarrollo Web", 1000));
+productos.push(new Servicio("4", "Desarrollo Web", 1000));
+productos.push(new Servicio("5", "Desarrollo Web", 1000));
+productos.push(new Servicio("7", "Desarrollo Web", 1000));
+productos.push(new Servicio("8", "Desarrollo Web", 1000));
+productos.push(new Servicio("9", "Desarrollo Web", 1000));
+productos.push(new Servicio("10", "Desarrollo Web", 1000));
 
 
 function App() { }
