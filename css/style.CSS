@@ -404,22 +404,6 @@ form button {
   border-left: 20px solid #6fff8d;
 }
 
-h4,
-h2,
-small a {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-.carousel {
-  width: 100%;
-  margin: 0px 0px;
-}
-
 @media (min-width: 768px) {
   .carousel {
     margin: 0px 60px;
@@ -499,36 +483,6 @@ a {
     width: 250px;
   }
 }
-.carrusel-arrow {
-  border-radius: 30px;
-  background-color: white;
-  position: absolute;
-  z-index: 4;
-  width: 48px;
-  height: 48px;
-  text-align: center;
-  border: 0;
-  cursor: pointer;
-}
-
-.carrusel-arrow:focus {
-  outline: 0;
-}
-
-.carrusel-arrow svg {
-  width: 12px;
-  height: 100%;
-  color: #000000;
-}
-
-.carrusel-prev {
-  left: 0px;
-}
-
-.carrusel-next {
-  right: 0px;
-}
-
 .wiggle-btn {
   position: relative;
   display: flex;

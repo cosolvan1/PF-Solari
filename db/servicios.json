@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "nombre": "Diseño Gráfico",
+    "precio": 1200,
+    "imagen": "1.jpg",
+    "altinf": "imagen del servicio Diseño Gráfico"
+  },
+  {
+    "id": "2",
+    "nombre": "UX/UI",
+    "precio": 800,
+    "imagen": "2.jpg",
+    "altinf": "imagen del servicio UX/UI"
+  },
+  {
+    "id": "3",
+    "nombre": "Branding",
+    "precio": 1200,
+    "imagen": "3.jpg",
+    "altinf": "imagen del servicio Branding"
+  },
+  {
+    "id": "4",
+    "nombre": "Comunicación Coorporativa",
+    "precio": 600,
+    "imagen": "4.jpg",
+    "altinf": "imagen del servicio Comunicación Coorporativa"
+  },
+  {
+    "id": "5",
+    "nombre": "Branding",
+    "precio": 900,
+    "imagen": "5.jpg",
+    "altinf": "imagen del servicio Branding"
+  },
+  {
+    "id": "6",
+    "nombre": "Brain Storming",
+    "precio": 300,
+    "imagen": "6.jpg",
+    "altinf": "imagen del servicio Brain Storming"
+  },
+  {
+    "id": "7",
+    "nombre": "Fotografía",
+    "precio": 850,
+    "imagen": "7.jpg",
+    "altinf": "imagen del servicio Fotografía"
+  },
+  {
+    "id": "8",
+    "nombre": "Packaging",
+    "precio": 1000,
+    "imagen": "8.jpg",
+    "altinf": "imagen del servicio Packaging"
+  },
+  {
+    "id": "9",
+    "nombre": "Logística",
+    "precio": 400,
+    "imagen": "9.jpg",
+    "altinf": "imagen del servicio Logística"
+  },
+  {
+    "id": "10",
+    "nombre": "Desarrollo Web",
+    "precio": 2000,
+    "imagen": "10.jpg",
+    "altinf": "imagen del servicio Desarrollo Web"
+  }
+]
