@@ -302,6 +302,12 @@ body {
   background-color: #000000;
 }
 
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #777;
+}
+
 .popupcontainer {
   width: 360px;
   height: 400px;
@@ -312,13 +318,6 @@ body {
   box-shadow: 5px 5px 5px #b3b2b2;
   overflow: hidden;
 }
-
-h3 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: #777;
-}
-
 .popupcontainer form {
   width: 280px;
   position: absolute;
@@ -326,8 +325,9 @@ h3 {
   left: 40px;
   transition: 0.5s;
 }
-
-form input {
+.popupcontainer form input,
+.popupcontainer form p,
+.popupcontainer form select {
   width: 100%;
   padding: 10px 5px;
   margin: 5px 0;
@@ -335,6 +335,17 @@ form input {
   border-bottom: 1px solid #999;
   outline: none;
   background: transparent;
+}
+.popupcontainer form button {
+  width: 110px;
+  height: 35px;
+  margin: 0 10 px;
+  background-color: #6fff8d;
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  color: black;
+  cursor: pointer;
 }
 
 ::placeholder {
@@ -345,18 +356,6 @@ form input {
   width: 100%;
   margin: 30px auto;
   text-align: center;
-}
-
-form button {
-  width: 110px;
-  height: 35px;
-  margin: 0 10 px;
-  background-color: #6fff8d;
-  border-radius: 30px;
-  border: 0;
-  outline: none;
-  color: black;
-  cursor: pointer;
 }
 
 #Form2 {
@@ -391,7 +390,6 @@ form button {
   background-color: #6fff8d;
   transition: 1s;
 }
-
 #progreso::after {
   content: "";
   height: 0;
@@ -402,6 +400,70 @@ form button {
   right: -20px;
   top: 0;
   border-left: 20px solid #6fff8d;
+}
+
+.wiggle-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  animation: wiggle 2s linear infinite;
+  transform-origin: 50% 8em;
+  animation-delay: 1s;
+}
+
+.wiggle-btn:hover {
+  animation: none;
+}
+
+@keyframes wiggle {
+  0%, 5% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+.wiggle-btn:before {
+  z-index: 0;
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  box-shadow: 0 5px 25px rgba(2, 2, 2, 0.5);
+}
+
+.wiggle-btn span {
+  z-index: 222;
+  position: absolute;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-shadow: 0 5px 25px rgb(2, 2, 2);
+}
+
+.wiggle-btn .btn-img {
+  z-index: 111;
+  width: 250px;
 }
 
 @media (min-width: 768px) {
@@ -483,70 +545,6 @@ form button {
     width: 250px;
   }
 }
-.wiggle-btn {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  animation: wiggle 2s linear infinite;
-  transform-origin: 50% 8em;
-  animation-delay: 1s;
-}
-
-.wiggle-btn:hover {
-  animation: none;
-}
-
-@keyframes wiggle {
-  0%, 5% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%, 100% {
-    transform: rotateZ(0);
-  }
-}
-.wiggle-btn:before {
-  z-index: 0;
-  content: "";
-  background-color: black;
-  position: absolute;
-  width: 300px;
-  height: 50px;
-  box-shadow: 0 5px 25px rgba(2, 2, 2, 0.5);
-}
-
-.wiggle-btn span {
-  z-index: 222;
-  position: absolute;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-size: 1.3em;
-  font-weight: 300;
-  letter-spacing: 1px;
-  text-shadow: 0 5px 25px rgb(2, 2, 2);
-}
-
-.wiggle-btn .btn-img {
-  z-index: 111;
-  width: 250px;
-}
-
 /* IMPORTACION DE CARPETA  LAYOUT*/
 .home {
   display: flex;
