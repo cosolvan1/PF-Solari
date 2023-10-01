@@ -10,11 +10,10 @@ class Servicio {
 
 const carrusel1 = document.getElementById("carrusel-1");
 const carrusel2 = document.getElementById("carrusel-2");
-const serviciosDisponibles = JSON.parse(localStorage.getItem("servicios"));
 
-const CardsServicios = () => {
+export const CardsServicios = (data) => {
   carrusel1.innerHTML = "";
-  serviciosDisponibles
+  data
     .filter((servicio) => parseInt(servicio.id) <= 5)
     .map((servicio) => {
       const { id, nombre, imagen, altinf } = servicio;
@@ -25,7 +24,7 @@ const CardsServicios = () => {
 
             <div class="carrusel">
               <div>
-                <a href="/">
+                <a href="#popupcontainer">
                   <h4><small>${nombre}</small></h4>
                   <picture>
                     <img src="/images/${imagen}" alt="${altinf}" />
@@ -39,7 +38,7 @@ const CardsServicios = () => {
     });
 
   carrusel2.innerHTML = "";
-  serviciosDisponibles
+  data
     .filter((servicio) => parseInt(servicio.id) > 5)
     .map((servicio) => {
       const { id, nombre, imagen, altinf } = servicio;
@@ -50,7 +49,7 @@ const CardsServicios = () => {
   
               <div class="carrusel">
                 <div>
-                  <a href="/">
+                  <a href="#popupcontainer">
                     <h4><small>${nombre}</small></h4>
                     <picture>
                       <img src="/images/${imagen}" alt="${altinf}" />
@@ -63,5 +62,3 @@ const CardsServicios = () => {
       carrusel2.appendChild(card);
     });
 };
-
-CardsServicios();
