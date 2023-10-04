@@ -110,7 +110,7 @@
                     class="nav-link active"
                     aria-current="page"
                     href="../pages/adn.html"
-                    >ADN</a
+                    >Servicios</a
                   >
                 </li>
                 <li class="nav-item dropdown">
@@ -169,17 +169,16 @@
         <div class="carrusel-list mb-5" id="carrusel-2"></div>
       </div>
 
-      <div class="popupcontainer">
+      <div class="popupcontainer" id="popupcontainer">
         <form id="Form1">
           <h3>¿Descuento del 20%?</h3>
-          <input type="texto" placeholder="Nombre y Apellido" required />
-          <input type="contraseña" placeholder="Email" required />
           <input
-            type="contraseña"
-            placeholder="¿Es tu primer proyecto? Sí/No"
+            id="nombre"
+            type="texto"
+            placeholder="Nombre y Apellido"
             required
           />
-
+          <input id="email" type="email" placeholder="Email" required />
           <div class="btn-box">
             <button type="button" id="siguiente1">Siguiente</button>
           </div>
@@ -187,8 +186,7 @@
 
         <form id="Form2">
           <h3>¡Elige un servicio!</h3>
-          <input type="texto" placeholder="escríbelo aquí" />
-
+          <select id="selectServicio" placeholder="escríbelo aquí"></select>
           <div class="btn-box">
             <button type="button" id="Atras1">Atras</button>
             <button type="button" id="siguiente2">Siguiente</button>
@@ -197,13 +195,12 @@
 
         <form id="Form3">
           <h3>¡Gran elección!</h3>
-          <input type="texto" placeholder="Se realizó el descuento" required />
-          <input type="texto" placeholder="Revisa tu correo" required />
-          <input type="texto" placeholder="¡Iniciemos!" required />
-
+          <p>Se realizó el descuento</p>
+          <p>Revisa tu correo"</p>
+          <p>Iniciamos</p>
           <div class="btn-box">
             <button type="button" id="atras2">Atras</button>
-            <button type="Terminar">Finalizar</button>
+            <button id="finalizar" type="Terminar">Finalizar</button>
           </div>
         </form>
 
@@ -222,7 +219,7 @@
           <div class="footer-links">
             <h4>Conóceme</h4>
             <ul>
-              <li><a href="../pages/adn.html">ADN</a></li>
+              <li><a href="../pages/adn.html">SERVICIOS</a></li>
               <li><a href="../pages/portafolio.html">ESTUDIOS</a></li>
             </ul>
           </div>
@@ -267,9 +264,7 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-
-    <script type="module" src="../js/main.js"></script>
-    <script type="module" src="../js/form.js"></script>
-    <script type="module" src="../db/servicios.js"></script>
+    <script type="module" src="../js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
