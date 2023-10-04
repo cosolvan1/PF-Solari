@@ -1,29 +1,26 @@
 /* IMPORTACION DE CARPETA BASE*/
 
-@import './base/resests';
-@import './base/utility';
-@import './base/variables';
+@import "./base/resests";
+@import "./base/utility";
+@import "./base/variables";
 
 /* IMPORTACION DE CARPETA COMPONENTES*/
 
-@import './components/footer';
-@import './components/cards';
-@import './components/footer';
-@import './components/botonverde';
-@import './components/titulos';
-@import './components/relatedpost';
-@import './components/popups';
-@import './components/carrusel.scss';
-@import './components/botonwiggle.scss';
+@import "./components/footer";
+@import "./components/cards";
+@import "./components/footer";
+@import "./components/botonverde";
+@import "./components/titulos";
+@import "./components/relatedpost";
+@import "./components/popups";
+@import "./components/botonwiggle";
+@import "./components/carrusel";
+
 /* IMPORTACION DE CARPETA  LAYOUT*/
 
-@import './layout/index';
-@import './layout/adn';
-@import './layout/blog';
-@import './layout/contacto';
-@import './layout/portafolio';
-@import './layout/media-queries';
-
-
-
-
+@import "./layout/index";
+@import "./layout/adn";
+@import "./layout/blog";
+@import "./layout/contacto";
+@import "./layout/portafolio";
+@import "./layout/media-queries";
